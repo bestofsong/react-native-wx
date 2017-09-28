@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91855C9F1C3F97A90085EAC0 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91855C981C3F97A90085EAC0 /* libWeChatSDK.a */; };
 		91855CA01C3F97A90085EAC0 /* RCTWeChatAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 91855C9E1C3F97A90085EAC0 /* RCTWeChatAPI.m */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTWeChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		91855C981C3F97A90085EAC0 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		91855C991C3F97A90085EAC0 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		91855C9A1C3F97A90085EAC0 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		91855C9B1C3F97A90085EAC0 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
@@ -38,7 +36,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91855C9F1C3F97A90085EAC0 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +45,6 @@
 		86D238391BD0BB9E00C75D01 = {
 			isa = PBXGroup;
 			children = (
-				91855C971C3F97A90085EAC0 /* libWeChatSDK */,
 				91855C9C1C3F97A90085EAC0 /* RCTWeChatAPI */,
 				86D238431BD0BB9E00C75D01 /* Products */,
 			);
@@ -60,17 +56,6 @@
 				86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		91855C971C3F97A90085EAC0 /* libWeChatSDK */ = {
-			isa = PBXGroup;
-			children = (
-				91855C981C3F97A90085EAC0 /* libWeChatSDK.a */,
-				91855C991C3F97A90085EAC0 /* WechatAuthSDK.h */,
-				91855C9A1C3F97A90085EAC0 /* WXApi.h */,
-				91855C9B1C3F97A90085EAC0 /* WXApiObject.h */,
-			);
-			path = libWeChatSDK;
 			sourceTree = "<group>";
 		};
 		91855C9C1C3F97A90085EAC0 /* RCTWeChatAPI */ = {
@@ -236,7 +221,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/libWeChatSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -256,7 +240,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/libWeChatSDK",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
