@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/reactnativecn/react-native-wx#readme",
   "dependencies": {
-    "es6-promisify": "^3.0.0"
+    "es6-promisify": "git+https://github.com/bestofsong/es6-promisify.git#ce73507420cb239d4ff83381c83262f75d06d289"
   },
   "peerDependencies": {
     "react-native": "^0.33.0"
